@@ -27,6 +27,8 @@ files = {your_project_root_path}/config/laravisor-conf/*.conf
 
 ### Restart supervisor
     $ php artisan laravisor:restart
+
+After creating new config file. make sure restart the supervisor in able to get the new configuration
     
 ## License
 
