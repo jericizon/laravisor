@@ -1,0 +1,31 @@
+{
+    "name": "jericizon/laravisor",
+    "description": "Generate laravel supervisor configuration in easiest way.",
+    "keywords": [
+        "laravisor",
+        "supervisor",
+        "configuration",
+        "supervisor-config"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeric Izon",
+            "email": "im.jericizon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "JericIzon\\Laravisor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JericIzon\\Laravisor\\LaravisorServiceProvider"
+            ]
+        }
+    }
+}
